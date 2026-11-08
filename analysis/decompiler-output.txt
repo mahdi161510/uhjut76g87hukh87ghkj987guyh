@@ -1,0 +1,40 @@
+ERROR    | 2026-11-08 19:14:52,844 | angr.state_plugins.unicorn_engine | failed loading "unicornlib.so", unicorn support disabled ('NoneType' object has no attribute 'unicorn_py3')
+loaded 0x12c93d3
+nodes 24 functions 7
+
+FUNCTION 0x12c93d3 found True
+blocks 1
+void _start(void)
+{
+    sub_1be8304(); /* do not return */
+}
+
+
+FUNCTION 0x1be8304 found True
+blocks 1
+void sub_1be8304(void)
+{
+    sub_1be9e5f(-337274); /* do not return */
+}
+
+
+FUNCTION 0x1be9e5f found True
+blocks 1
+void sub_1be9e5f(void)
+{
+    sub_1c17581(); /* do not return */
+}
+
+
+FUNCTION 0x1240a76 found True
+blocks 6
+void sub_1240a76(unsigned int a0)
+{
+    unsigned int v2;  // ecx
+    unsigned int v0;  // [bp-0x8]
+
+    sub_1240aaf(vvar_2{r28|4b});
+    v0 = v2;
+    goto vvar_2{r28|4b} - 23;
+}
+
